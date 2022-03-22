@@ -118,7 +118,7 @@ const Footer: FC = () => {
           <div className="min-w-[150px] max-w-[300px] flex items-start w-fit mx-0 lg:mx-auto">
             <FontAwesomeIcon
               icon={faLocationDot}
-              className="text-white mr-3.5 pt-[.3rem] text-[17px] sm:text-xl"
+              className="text-white mr-3.5 pt-[.3rem] text-[17px] sm:text-[18.5px]"
             />
             <p className="text-[15px] sm:text-base">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -130,14 +130,14 @@ const Footer: FC = () => {
               <li className="flex items-center text-[15px] sm:text-base text-white mb-3.5">
                 <FontAwesomeIcon
                   icon={faPhone}
-                  className="text-[17px] sm:text-xl text-white mr-3.5"
+                  className="text-[17px] sm:text-[18.5px] text-white mr-3.5"
                 />
                 +1-543-123-4567
               </li>
-              <li className=" flex items-center text-[15px] sm:text-base text-white mb-3.5">
+              <li className=" flex items-center text-[15px] sm:text-base text-white">
                 <FontAwesomeIcon
                   icon={faEnvelope}
-                  className="text-[17px] sm:text-xl text-white mr-3.5"
+                  className="text-[17px] sm:text-[18.5px] text-white mr-3.5"
                 />
                 example@fylo.com
               </li>
@@ -169,7 +169,7 @@ const Footer: FC = () => {
                   Press
                 </a>
               </li>
-              <li className="w-[112px] text-white mb-3.5">
+              <li className="w-[112px] text-white">
                 <a
                   className="cursor-pointer text-[15px] sm:text-base transition-all
                     hover:font-semibold"
@@ -197,7 +197,7 @@ const Footer: FC = () => {
                   Teams
                 </a>
               </li>
-              <li className="w-[112px] text-white mb-3.5">
+              <li className="w-[112px] text-white">
                 <a
                   className="cursor-pointer text-[15px] sm:text-base transition-all
                     hover:font-semibold"
@@ -208,36 +208,36 @@ const Footer: FC = () => {
             </ul>
           </div>
           <div className="flex w-full justify-center md:justify-start md:w-fit mx-0 lg:mx-auto">
-            <a className="group cursor-pointer mr-6">
+            <a className="group w-fit h-fit cursor-pointer mr-6">
               <span
                 className="flex justify-center items-center w-9 h-9 border-2 border-white
                 rounded-[50%] transition-all group-hover:border-cyan"
               >
                 <FontAwesomeIcon
                   icon={faFacebookF}
-                  className="text-[17px] sm:text-xl text-white transition-all group-hover:text-cyan"
+                  className="text-[17px] sm:text-[18.5px] text-white transition-all group-hover:text-cyan"
                 />
               </span>
             </a>
-            <a className="group cursor-pointer mr-6">
+            <a className="group w-fit h-fit cursor-pointer mr-6">
               <span
                 className="flex justify-center items-center w-9 h-9 border-2 border-white
                 rounded-[50%] transition-all group-hover:border-cyan"
               >
                 <FontAwesomeIcon
                   icon={faTwitter}
-                  className="text-[17px] sm:text-xl text-white transition-all group-hover:text-cyan"
+                  className="text-[17px] sm:text-[18.5px] text-white transition-all group-hover:text-cyan"
                 />
               </span>
             </a>
-            <a className="group cursor-pointer mr-6">
+            <a className="group w-fit h-fit cursor-pointer">
               <span
                 className="flex justify-center items-center w-9 h-9 border-2 border-white
                 rounded-[50%] transition-all group-hover:border-cyan"
               >
                 <FontAwesomeIcon
                   icon={faInstagram}
-                  className="text-[17px] sm:text-xl text-white transition-all group-hover:text-cyan"
+                  className="text-[17px] sm:text-[18.5px] text-white transition-all group-hover:text-cyan"
                 />
               </span>
             </a>
