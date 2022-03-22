@@ -76,7 +76,7 @@ const Footer: FC = () => {
                 className={`font-raleway font-bold transition-opaicty ease-linear ${
                   loading || success
                     ? "duration-150 delay-0"
-                    : "delay-300 duration-[350ms]"
+                    : "delay-300 duration-[450ms]"
                 } ${
                   loading || success
                     ? "opacity-0 pointer-events-none"
@@ -86,13 +86,13 @@ const Footer: FC = () => {
                 Get Started For Free
               </span>
               <span
-                className={`font-raleway font-bold absolute w-1/2 left-0 right-0 transition-all duration-[350ms]
+                className={`font-raleway font-bold absolute w-1/2 left-0 right-0 transition-all duration-[450ms]
                 ${success ? "translate-x-1/2" : "-translate-x-full"}`}
               >
                 Success!
               </span>
               <span
-                className={`font-raleway font-bold absolute w-1/2 left-0 right-0 transition-all duration-[350ms]
+                className={`font-raleway font-bold absolute w-1/2 left-0 right-0 transition-all duration-[450ms]
                 ${loading ? "translate-x-1/2" : "translate-x-[200%]"}`}
               >
                 Loading...
@@ -118,7 +118,7 @@ const Footer: FC = () => {
           <div className="min-w-[150px] max-w-[300px] flex items-start w-fit mx-0 lg:mx-auto">
             <FontAwesomeIcon
               icon={faLocationDot}
-              className="text-white mr-3.5 pt-1.5 text-xl"
+              className="text-white mr-3.5 pt-[.3rem] text-[17px] sm:text-xl"
             />
             <p className="text-[15px] sm:text-base">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -130,14 +130,14 @@ const Footer: FC = () => {
               <li className="flex items-center text-[15px] sm:text-base text-white mb-3.5">
                 <FontAwesomeIcon
                   icon={faPhone}
-                  className="text-xl text-white mr-3.5"
+                  className="text-[17px] sm:text-xl text-white mr-3.5"
                 />
                 +1-543-123-4567
               </li>
               <li className=" flex items-center text-[15px] sm:text-base text-white mb-3.5">
                 <FontAwesomeIcon
                   icon={faEnvelope}
-                  className="text-xl text-white mr-3.5"
+                  className="text-[17px] sm:text-xl text-white mr-3.5"
                 />
                 example@fylo.com
               </li>
@@ -215,7 +215,7 @@ const Footer: FC = () => {
               >
                 <FontAwesomeIcon
                   icon={faFacebookF}
-                  className="text-xl text-white transition-all group-hover:text-cyan"
+                  className="text-[17px] sm:text-xl text-white transition-all group-hover:text-cyan"
                 />
               </span>
             </a>
@@ -226,7 +226,7 @@ const Footer: FC = () => {
               >
                 <FontAwesomeIcon
                   icon={faTwitter}
-                  className="text-xl text-white transition-all group-hover:text-cyan"
+                  className="text-[17px] sm:text-xl text-white transition-all group-hover:text-cyan"
                 />
               </span>
             </a>
@@ -237,7 +237,7 @@ const Footer: FC = () => {
               >
                 <FontAwesomeIcon
                   icon={faInstagram}
-                  className="text-xl text-white transition-all group-hover:text-cyan"
+                  className="text-[17px] sm:text-xl text-white transition-all group-hover:text-cyan"
                 />
               </span>
             </a>

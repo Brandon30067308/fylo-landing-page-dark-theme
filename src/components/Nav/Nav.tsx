@@ -8,8 +8,8 @@ const Nav: FC = () => {
         lg:max-w-[94vw] px-4 sm:px-8"
     >
       <Logo />
-      <ul className="flex flex-wrap list-none ml-5 flex-[0.95] justify-between xs:justify-end">
-        <li className="group mr-2.5 sm:mr-7">
+      <ul className="flex flex-wrap list-none ml-5 flex-[0.985] justify-between xs:justify-end">
+        <li className="group mr-3.5 sm:mr-7">
           <a
             className="transition-all group-hover:underline text-[15px] sm:text-base tracking-wide
               cursor-pointer"
@@ -17,7 +17,7 @@ const Nav: FC = () => {
             Features
           </a>
         </li>
-        <li className="group mr-2.5 sm:mr-7">
+        <li className="group mr-3.5 sm:mr-7">
           <a
             className="transition-all group-hover:underline text-[15px] sm:text-base tracking-wide
               cursor-pointer"
