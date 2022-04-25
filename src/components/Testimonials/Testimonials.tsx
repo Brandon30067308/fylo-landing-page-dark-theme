@@ -10,10 +10,10 @@ const Testimonials: FC = () => {
       className="Testimonials w-full flex items-start justify-center md:pb-20 sm:pb-14 pb-10
         pt-[75px] sm:pt-[91px] md:pt-[115px]"
     >
-      <div className="w-full max-w-full lg:max-w-[94vw] mx-auto">
+      <main className="w-full max-w-[2160px] mx-auto lg:px-14 md:px-6 px-3">
         <div
-          className="min-w-full sm:min-w-fit w-full mx-auto sm:w-fit lg:w-full max-w-[82vw] relative flex flex-col
-            lg:flex-row lg:justify-between items-center lg:items-start px-3 sm:px-8"
+          className="min-w-full sm:min-w-fit w-full mx-auto sm:w-fit lg:w-full max-w-[82vw] relative
+            flex flex-col lg:flex-row lg:justify-between items-center lg:items-start"
         >
           {/* quotes bg */}
           <div className="absolute left-[20px] -top-[35px]">
@@ -98,7 +98,7 @@ const Testimonials: FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </main>
     </div>
   );
 };

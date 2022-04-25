@@ -6,8 +6,11 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const Banner: FC = () => {
   return (
     <div className="Banner w-full flex items-start justify-center py-10 sm:py-14 md:py-20">
-      <div className="w-full max-w-[94vw] flex flex-col lg:flex-row justify-center items-center gap-x-12">
-        <div>
+      <main
+        className="w-full max-w-[2160px] flex flex-col lg:flex-row justify-center
+          items-center lg:px-14 sm:px-6 px-3"
+      >
+        <div className="mr-0 lg:mr-12">
           <img
             src={illustrationStayProductive}
             alt="stay_productive_illustration"
@@ -38,7 +41,7 @@ const Banner: FC = () => {
             </div>
           </button>
         </div>
-      </div>
+      </main>
     </div>
   );
 };

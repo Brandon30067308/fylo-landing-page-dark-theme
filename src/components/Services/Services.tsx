@@ -12,8 +12,8 @@ const Services: FC = () => {
 
   return (
     <div className="Services w-full flex flex-col items-center justify-start py-10 sm:py-14 md:py-20">
-      <div
-        className="max-w-[94vw] grid gap-x-[15vw] gap-y-14 sm:gap-y-20 justify-center"
+      <main
+        className="grid justify-center gap-x-[15vw] gap-y-14 sm:gap-y-20 lg:px-14 md:px-6 px-3"
         style={{
           gridTemplateColumns: width <= breakpoints.md ? "1fr" : "1fr 1fr"
         }}
@@ -26,9 +26,9 @@ const Services: FC = () => {
               className="max-w-xs"
             />
           </div>
-          <h3 className="max-w-sm font-raleway font-bold my-1 sm:my-2 text-center text-xl text-[1.35rem]">
+          <h2 className="max-w-sm font-raleway font-bold my-1 sm:my-2 text-center text-xl text-[1.35rem]">
             Access your files, anywhere
-          </h3>
+          </h2>
           <p
             className="max-w-sm font-openSans my-0.5 sm:my-1 text-center text-[15px] sm:text-base
             tracking-[0.015]"
@@ -41,9 +41,9 @@ const Services: FC = () => {
           <div className="mb-4 min-h-[88px]">
             <img src={iconSecurity} alt="security" className="max-w-xs" />
           </div>
-          <h3 className="max-w-sm font-raleway font-bold my-1 sm:my-2 text-center text-xl text-[1.35rem]">
+          <h2 className="max-w-sm font-raleway font-bold my-1 sm:my-2 text-center text-xl text-[1.35rem]">
             Security you can trust
-          </h3>
+          </h2>
           <p
             className="max-w-sm font-openSans my-0.5 sm:my-1 text-center text-[15px] sm:text-base
             tracking-[0.015]"
@@ -60,9 +60,9 @@ const Services: FC = () => {
               className="max-w-xs"
             />
           </div>
-          <h3 className="max-w-sm font-raleway font-bold my-1 sm:my-2 text-center text-xl text-[1.35rem]">
+          <h2 className="max-w-sm font-raleway font-bold my-1 sm:my-2 text-center text-xl text-[1.35rem]">
             Real-time collaboration
-          </h3>
+          </h2>
           <p
             className="max-w-sm font-openSans my-0.5 sm:my-1 text-center text-[15px] sm:text-base
             tracking-[0.015]"
@@ -75,9 +75,9 @@ const Services: FC = () => {
           <div className="mb-4 min-h-[88px]">
             <img src={iconAnyFile} alt="store_any_file" className="max-w-xs" />
           </div>
-          <h3 className="max-w-sm font-raleway font-bold my-1 sm:my-2 text-center text-xl text-[1.35rem]">
+          <h2 className="max-w-sm font-raleway font-bold my-1 sm:my-2 text-center text-xl text-[1.35rem]">
             Store any type of file
-          </h3>
+          </h2>
           <p
             className="max-w-sm font-openSans my-0.5 sm:my-1 text-center text-[15px] sm:text-base
             tracking-[0.015]"
@@ -87,7 +87,7 @@ const Services: FC = () => {
             shared.
           </p>
         </div>
-      </div>
+      </main>
     </div>
   );
 };

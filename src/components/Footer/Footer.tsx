@@ -37,17 +37,17 @@ const Footer: FC = () => {
       mt-[265px] sm:mt-[241px] md:mt-[230px]"
     >
       <div
-        className="w-full h-full max-w-full lg:max-w-[94vw] flex flex-col items-center justify-center
-        pb-8 pt-[257px] sm:pt-[217px] md:pt-[182px] px-3 sm:px-8"
+        className="w-full max-w-[2160px] h-full flex flex-col items-center justify-center
+        pb-8 pt-[257px] sm:pt-[217px] md:pt-[182px] px-3 sm:px-6 lg:px-14"
       >
         <div
           className="flex flex-col items-center justify-center absolute shadow bg-primaryIntro
             rounded-lg left-[3%] sm:left-[7%] lg:left-[27.5vw] -top-[225px] sm:-top-[185px] md:-top-[150px] h-[450px] sm:h-[370px] md:h-[300px]
             w-full max-w-[94%] sm:max-w-[86%] lg:max-w-[50vw] p-3.5 sm:p-6 md:p-8"
         >
-          <h3 className="font-raleway text-[1.6rem] sm:text-3xl font-semibold mb-2.5 sm:mb-4 text-center">
+          <h2 className="font-raleway text-[1.6rem] sm:text-3xl font-semibold mb-2.5 sm:mb-4 text-center">
             Get early access today
-          </h3>
+          </h2>
           <p className="font-openSans text-[15px] sm:text-base mb-5 sm:mb-8 text-center">
             It only takes a minute to sign up and our free starter tier is
             extremely generous. If you have any questions, our support team
