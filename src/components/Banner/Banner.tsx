@@ -6,7 +6,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const Banner: FC = () => {
   return (
     <div className="Banner w-full flex items-start justify-center py-10 sm:py-14 md:py-20">
-      <main
+      <div
         className="w-full max-w-[2160px] flex flex-col lg:flex-row justify-center
           items-center lg:px-14 sm:px-6 px-3"
       >
@@ -41,7 +41,7 @@ const Banner: FC = () => {
             </div>
           </button>
         </div>
-      </main>
+      </div>
     </div>
   );
 };

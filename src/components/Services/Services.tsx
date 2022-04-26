@@ -12,7 +12,7 @@ const Services: FC = () => {
 
   return (
     <div className="Services w-full flex flex-col items-center justify-start py-10 sm:py-14 md:py-20">
-      <main
+      <div
         className="grid justify-center gap-x-[15vw] gap-y-14 sm:gap-y-20 lg:px-14 md:px-6 px-3"
         style={{
           gridTemplateColumns: width <= breakpoints.md ? "1fr" : "1fr 1fr"
@@ -87,7 +87,7 @@ const Services: FC = () => {
             shared.
           </p>
         </div>
-      </main>
+      </div>
     </div>
   );
 };

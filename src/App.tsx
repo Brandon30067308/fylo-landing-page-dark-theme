@@ -8,10 +8,12 @@ import Footer from "./components/Footer/Footer";
 const App: FC = () => {
   return (
     <div className="App font-raleway font-normal text-white overflow-x-hidden">
-      <Hero />
-      <Services />
-      <Banner />
-      <Testimonials />
+      <main>
+        <Hero />
+        <Services />
+        <Banner />
+        <Testimonials />
+      </main>
       <Footer />
     </div>
   );

@@ -554,14 +554,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0px;
 }
 
-.my-8{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.my-6{
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+.mr-0{
+  margin-right: 0px;
 }
 
 .mt-6{
@@ -620,12 +614,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1rem;
 }
 
-.ml-5{
-  margin-left: 1.25rem;
+.mt-8{
+  margin-top: 2rem;
 }
 
 .mb-4{
   margin-bottom: 1rem;
+}
+
+.ml-5{
+  margin-left: 1.25rem;
 }
 
 .mb-6{
@@ -638,14 +636,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-0{
   margin-bottom: 0px;
-}
-
-.mr-0{
-  margin-right: 0px;
-}
-
-.mt-8{
-  margin-top: 2rem;
 }
 
 .flex{
@@ -692,10 +682,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .min-h-\[600px\]{
   min-height: 600px;
-}
-
-.min-h-\[12vh\]{
-  min-height: 12vh;
 }
 
 .min-h-\[88px\]{
@@ -764,20 +750,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 88px;
 }
 
-.max-w-full{
-  max-width: 100%;
-}
-
 .max-w-\[94\%\]{
   max-width: 94%;
 }
 
 .max-w-\[38rem\]{
   max-width: 38rem;
-}
-
-.max-w-\[94vw\]{
-  max-width: 94vw;
 }
 
 .max-w-xs{
@@ -853,11 +831,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-between{
   justify-content: space-between;
-}
-
-.gap-x-12{
-  -moz-column-gap: 3rem;
-       column-gap: 3rem;
 }
 
 .gap-y-14{
@@ -971,14 +944,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 2.5rem;
 }
 
-.py-2{
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .px-4{
@@ -1006,16 +979,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1.25rem;
 }
 
-.px-8{
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.px-14{
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-}
-
 .pb-8{
   padding-bottom: 2rem;
 }
@@ -1026,10 +989,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-\[\.3rem\]{
   padding-top: .3rem;
-}
-
-.pt-4{
-  padding-top: 1rem;
 }
 
 .pb-10{
@@ -1259,24 +1218,20 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 2rem;
   }
 
-  .sm\:mr-7{
-    margin-right: 1.75rem;
-  }
-
-  .sm\:mr-4{
-    margin-right: 1rem;
-  }
-
-  .sm\:mt-10{
-    margin-top: 2.5rem;
+  .sm\:mt-12{
+    margin-top: 3rem;
   }
 
   .sm\:mb-10{
     margin-bottom: 2.5rem;
   }
 
-  .sm\:mt-12{
-    margin-top: 3rem;
+  .sm\:mr-7{
+    margin-right: 1.75rem;
+  }
+
+  .sm\:mr-4{
+    margin-right: 1rem;
   }
 
   .sm\:h-\[370px\]{
@@ -1336,6 +1291,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-bottom: 3.5rem;
   }
 
+  .sm\:px-6{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   .sm\:px-8{
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1351,22 +1311,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 1.75rem;
   }
 
-  .sm\:px-6{
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
-  .sm\:px-12{
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-
   .sm\:pt-\[217px\]{
     padding-top: 217px;
-  }
-
-  .sm\:pt-8{
-    padding-top: 2rem;
   }
 
   .sm\:pb-14{
@@ -1504,6 +1450,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-right: auto;
   }
 
+  .lg\:mr-12{
+    margin-right: 3rem;
+  }
+
   .lg\:mr-8{
     margin-right: 2rem;
   }
@@ -1512,24 +1462,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 0px;
   }
 
-  .lg\:mr-12{
-    margin-right: 3rem;
-  }
-
-  .lg\:w-\[94vw\]{
-    width: 94vw;
-  }
-
   .lg\:w-full{
     width: 100%;
   }
 
   .lg\:max-w-\[30\%\]{
     max-width: 30%;
-  }
-
-  .lg\:max-w-\[94vw\]{
-    max-width: 94vw;
   }
 
   .lg\:max-w-\[50vw\]{
@@ -1550,16 +1488,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:justify-between{
     justify-content: space-between;
-  }
-
-  .lg\:px-8{
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .lg\:px-12{
-    padding-left: 3rem;
-    padding-right: 3rem;
   }
 
   .lg\:px-14{

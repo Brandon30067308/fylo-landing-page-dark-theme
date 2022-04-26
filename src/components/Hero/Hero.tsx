@@ -17,7 +17,7 @@ const Hero: FC = () => {
       sm:px-6 px-3"
       >
         <Nav />
-        <main className="w-full flex flex-col items-center justify-center min-h-[600px] px-3 sm:px-8 mt-6">
+        <div className="w-full flex flex-col items-center justify-center min-h-[600px] px-3 sm:px-8 mt-6">
           <img
             className="sm:max-w-[400px] md:max-w-[575px]"
             src={illustrationIntro}
@@ -44,7 +44,7 @@ const Hero: FC = () => {
               </button>
             </div>
           </div>
-        </main>
+        </div>
       </div>
       {/* wave pattern */}
       <div className="absolute bottom-0 left-0">

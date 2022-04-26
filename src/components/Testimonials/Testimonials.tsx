@@ -10,7 +10,7 @@ const Testimonials: FC = () => {
       className="Testimonials w-full flex items-start justify-center md:pb-20 sm:pb-14 pb-10
         pt-[75px] sm:pt-[91px] md:pt-[115px]"
     >
-      <main className="w-full max-w-[2160px] mx-auto lg:px-14 md:px-6 px-3">
+      <div className="w-full max-w-[2160px] mx-auto lg:px-14 md:px-6 px-3">
         <div
           className="min-w-full sm:min-w-fit w-full mx-auto sm:w-fit lg:w-full max-w-[82vw] relative
             flex flex-col lg:flex-row lg:justify-between items-center lg:items-start"
@@ -36,9 +36,9 @@ const Testimonials: FC = () => {
                 className="rounded-[50%] w-9 sm:w-10 h-9 sm:h-10 mr-3 sm:mr-4"
               />
               <div>
-                <h3 className="text-sm font-semibold font-raleway mb-0.5">
+                <h2 className="text-sm font-semibold font-raleway mb-0.5">
                   Satish Patel
-                </h3>
+                </h2>
                 <p className="font-raleway text-sm tracking-wide">
                   Founder {"&"} CEO, Huddle
                 </p>
@@ -62,9 +62,9 @@ const Testimonials: FC = () => {
                 className="rounded-[50%] w-9 sm:w-10 h-9 sm:h-10 mr-3 sm:mr-4"
               />
               <div>
-                <h3 className="text-sm font-semibold font-raleway mb-0.5">
+                <h2 className="text-sm font-semibold font-raleway mb-0.5">
                   Bruce McKenzie
-                </h3>
+                </h2>
                 <p className="font-raleway text-sm tracking-wide">
                   Founder {"&"} CEO, Huddle
                 </p>
@@ -88,9 +88,9 @@ const Testimonials: FC = () => {
                 className="rounded-[50%] w-9 sm:w-10 h-9 sm:h-10 mr-3 sm:mr-4"
               />
               <div>
-                <h3 className="text-sm font-semibold font-raleway mb-0.5">
+                <h2 className="text-sm font-semibold font-raleway mb-0.5">
                   Iva Boyd
-                </h3>
+                </h2>
                 <p className="font-raleway text-sm tracking-wide">
                   Founder {"&"} CEO, Huddle
                 </p>
@@ -98,7 +98,7 @@ const Testimonials: FC = () => {
             </div>
           </div>
         </div>
-      </main>
+      </div>
     </div>
   );
 };
